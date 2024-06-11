@@ -1,7 +1,6 @@
 import axios from 'axios';
-require('dotenv').config();
 
-const BASE_URL = 'https://youtube-v31.p.rapidapi.com/search'
+const BASE_URL = 'https://youtube-v31.p.rapidapi.com'
 
 const options = {
   params: {
